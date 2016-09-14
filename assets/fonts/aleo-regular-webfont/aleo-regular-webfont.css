@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "Aleo";
+  src: url("aleo-regular-webfont.woff2") format('woff2'),
+       url("aleo-regular-webfont.woff") format('woff'),
+       url("aleo-regular-webfont.ttf") format('truetype');
+}
