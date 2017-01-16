@@ -4,7 +4,7 @@
 p {
   color: rgba(0,0,0,0.618);
 }
-a, h2 {
+a, h2, h6.title {
   color: rgba(0,0,0,0.382);
 }
 a {
@@ -17,14 +17,26 @@ a:hover {
   padding-top: 10vh;
   text-align: center;
 }
-#summary {
+#summary, #projects {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
-.link {
+#links {
+  margin-bottom: 2.5rem;
+}
+#links .link {
   text-align: center;
   font-weight: bold;
+}
+#projects .title {
+  text-align: center;
+}
+#projects span.project-title {
+  font-weight: bold;
+}
+#projects p.project-description {
+  margin-bottom: 0;
 }
 
 @media (min-width: 750px) {
