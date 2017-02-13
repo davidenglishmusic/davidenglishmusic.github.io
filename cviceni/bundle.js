@@ -264,7 +264,7 @@ module.exports={
             "set": [{
                     "hint": "Ja",
                     "beginning": "Hraj",
-                    "answer": "u",
+                    "answer": "í",
                     "end": "na harfu krásně."
                 },
                 {
@@ -468,6 +468,8 @@ var _jquery = require('jquery');
 
 var _jquery2 = _interopRequireDefault(_jquery);
 
+require('jquery-ui');
+
 var _PhraseSet = require('./PhraseSet');
 
 var _PhraseSet2 = _interopRequireDefault(_PhraseSet);
@@ -595,7 +597,7 @@ var Desk = function (_Component) {
 }(_react.Component);
 
 exports.default = Desk;
-},{"../../../exercises.json":2,"./AnswerSet":5,"./PhraseSet":8,"jquery":33,"react":186}],7:[function(require,module,exports){
+},{"../../../exercises.json":2,"./AnswerSet":5,"./PhraseSet":8,"jquery":33,"jquery-ui":32,"react":186}],7:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
