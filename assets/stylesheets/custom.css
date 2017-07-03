@@ -1,43 +1,55 @@
 * {
   font-family: 'Aleo', sans-serif;
 }
+
 p {
-  color: rgba(0,0,0,0.618);
+  color: rgba(0, 0, 0, 0.618);
 }
+
 a, h2, h6.title {
-  color: rgba(0,0,0,0.382);
+  color: rgba(0, 0, 0, 0.382);
 }
+
 a {
   text-decoration: none;
 }
+
 a:hover {
   color: #447078;
 }
+
 #title {
   padding-top: 10vh;
   text-align: center;
 }
+
 #summary, #projects {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
+
 #links {
   margin-bottom: 2.5rem;
 }
+
 #links .link {
   text-align: center;
 }
+
 #projects .title {
   text-align: center;
   margin-bottom: 1rem;
 }
+
 #projects p.project-description {
   margin-bottom: 0;
 }
+
 .project {
   padding: 1em 0;
 }
+
 .project:first {
   padding: 0;
 }
