@@ -2,7 +2,7 @@
   font-family: 'Aleo', sans-serif;
 }
 
-p {
+p, span {
   color: rgba(0, 0, 0, 0.618);
 }
 
