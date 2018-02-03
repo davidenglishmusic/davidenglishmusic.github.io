@@ -1,0 +1,16 @@
+#projects .title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#projects p.project-description {
+  margin-bottom: 0;
+}
+
+.project {
+  padding: 1em 0;
+}
+
+.project:first {
+  padding: 0;
+}
