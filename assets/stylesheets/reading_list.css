@@ -10,6 +10,7 @@
   display: flex;
   margin-bottom: 1rem;
   flex-direction: column;
+  overflow: hidden;
 }
 
 @media(min-width: 500px) {
@@ -26,16 +27,24 @@
 .book-img-wrapper {
   align-self: center;
   max-width: 125px;
+  height: 125px;
+  min-width: 125px;
 }
 
 @media(min-width: 500px) {
   .book-img-wrapper {
-    text-align: auto;
+    text-align: left;
   }
 }
 
 .book-img-wrapper img {
-  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.book-img-wrapper img.loaded {
+  opacity: 1;
 }
 
 .book-info {
