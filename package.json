@@ -1,0 +1,11 @@
+{
+  "name": "davidenglishmusic.github.io",
+  "repository": "https://github.com/davidenglishmusic/davidenglishmusic.github.io.git",
+  "author": "davidenglishmusic",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "less": "^2.7.3",
+    "less-plugin-clean-css": "^1.5.1"
+  }
+}

@@ -6,31 +6,29 @@ function setImageSrc(img) {
 }
 
 function checkIfBooksInViewport() {
-  var bookImages = document.getElementsByClassName("book-img");
-  for (var i = 0; i < bookImages.length; i++) {
-    var bookImage = bookImages[i];
+  const bookImages = document.getElementsByClassName("book-img");
+
+  for (const bookImage of bookImages) {
     if (bookImage.classList.contains('loaded')) {
       continue;
     }
-    var rect = bookImage.getBoundingClientRect();
+    const rect = bookImage.getBoundingClientRect();
     if (rect.top >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)) {
       setImageSrc(bookImage);
     }
   }
 }
 
-var debouncedCheckIfBooksInViewport = debounce(function() {
-  return checkIfBooksInViewport();
-}, 250);
+const debouncedCheckIfBooksInViewport = debounce(() => checkIfBooksInViewport(), 250);
 
 // borrows from https://gist.github.com/nmsdvid/8807205
 function debounce(func, wait, immediate) {
-  var timeout;
+  let timeout;
   return function() {
-    var context = this,
-      args = arguments;
+    const context = this;
+    const args = arguments;
     clearTimeout(timeout);
-    timeout = setTimeout(function() {
+    timeout = setTimeout(() => {
       timeout = null;
       if (!immediate) func.apply(context, args);
     }, wait);
@@ -38,8 +36,8 @@ function debounce(func, wait, immediate) {
   };
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-  window.onscroll = function() {
+document.addEventListener("DOMContentLoaded", () => {
+  window.onscroll = () => {
     debouncedCheckIfBooksInViewport();
   };
   return checkIfBooksInViewport();
