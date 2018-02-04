@@ -1,0 +1,53 @@
+#reading-list {
+  margin-bottom: 1rem;
+
+  .title {
+    text-align: center;
+  }
+
+  .book {
+    display: flex;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    overflow: hidden;
+    @media(min-width: 500px) {
+      align-items: flex-end;
+      flex-direction: row;
+    }
+
+    > div {
+      padding: 0 0.5rem;
+    }
+
+    .book-img-wrapper {
+      align-self: center;
+      max-width: 125px;
+      height: 125px;
+      min-width: 125px;
+      margin-bottom: 1rem;
+      @media(min-width: 500px) {
+        text-align: left;
+        margin-bottom: 0;
+      }
+
+      img {
+        height: 100%;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+
+        &.loaded {
+          opacity: 1;
+        }
+      }
+    }
+
+    .book-info {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      @media(min-width: 500px) {
+        text-align: left;
+      }
+    }
+  }
+}
