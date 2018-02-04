@@ -29,11 +29,13 @@
   max-width: 125px;
   height: 125px;
   min-width: 125px;
+  margin-bottom: 1rem;
 }
 
 @media(min-width: 500px) {
   .book-img-wrapper {
     text-align: left;
+    margin-bottom: 0;
   }
 }
 
