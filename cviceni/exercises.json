@@ -1,0 +1,121 @@
+{
+    "exercises": [{
+            "set": [{
+                    "hint": "Ja",
+                    "beginning": "Chod",
+                    "answer": "ím",
+                    "end": "do školy."
+                },
+                {
+                    "hint": "Ty",
+                    "beginning": "Chod",
+                    "answer": "íš",
+                    "end": "do školy."
+                },
+                {
+                    "hint": "Ona",
+                    "beginning": "Chod",
+                    "answer": "í",
+                    "end": "do školy."
+                },
+                {
+                    "hint": "My",
+                    "beginning": "Chod",
+                    "answer": "íme",
+                    "end": "do školy."
+                },
+                {
+                    "hint": "Vy",
+                    "beginning": "Chod",
+                    "answer": "íte",
+                    "end": "do školy."
+                },
+                {
+                    "hint": "Oni",
+                    "beginning": "Chod",
+                    "answer": "í",
+                    "end": "do školy."
+                }
+            ]
+        },
+        {
+            "set": [{
+                    "hint": "Ja",
+                    "beginning": "Dá",
+                    "answer": "vám",
+                    "end": "čokoládu Bedřichovi."
+                },
+                {
+                    "hint": "Ty",
+                    "beginning": "Dá",
+                    "answer": "váš",
+                    "end": "čokoládu Bedřichovi."
+                },
+                {
+                    "hint": "Ona",
+                    "beginning": "Dá",
+                    "answer": "vá",
+                    "end": "čokoládu Bedřichovi."
+                },
+                {
+                    "hint": "My",
+                    "beginning": "Dá",
+                    "answer": "váme",
+                    "end": "čokoládu Bedřichovi."
+                },
+                {
+                    "hint": "Vy",
+                    "beginning": "Dá",
+                    "answer": "te",
+                    "end": "čokoládu Bedřichovi."
+                },
+                {
+                    "hint": "Oni",
+                    "beginning": "Dá",
+                    "answer": "vají",
+                    "end": "čokoládu Bedřichovi."
+                }
+            ]
+        },
+        {
+            "set": [{
+                    "hint": "Ja",
+                    "beginning": "Hraj",
+                    "answer": "í",
+                    "end": "na harfu krásně."
+                },
+                {
+                    "hint": "Ty",
+                    "beginning": "Hraj",
+                    "answer": "eš",
+                    "end": "na harfu krásně."
+                },
+                {
+                    "hint": "Ona",
+                    "beginning": "Hraj",
+                    "answer": "e",
+                    "end": "na harfu krásně."
+                },
+                {
+                    "hint": "My",
+                    "beginning": "Hraj",
+                    "answer": "eme",
+                    "end": "na harfu krásně."
+                },
+                {
+                    "hint": "Vy",
+                    "beginning": "Hraj",
+                    "answer": "ete",
+                    "end": "na harfu krásně."
+                },
+                {
+                    "hint": "Oni",
+                    "beginning": "Hraj",
+                    "answer": "í",
+                    "end": "na harfu krásně."
+                }
+            ]
+        }
+    ],
+    "completionMessage": "Gratuluji!"
+}
