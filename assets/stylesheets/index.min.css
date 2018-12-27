@@ -1,1 +1,1 @@
-#title{text-align:center}#contact{margin-bottom:2.5rem}@media (min-width:750px){#contact{text-align:center}#contact .link{display:inline-block;margin:0 1rem}}
+#title{text-align:center}#contact,#links{text-align:center}#contact .link,#links .link{display:block;margin:1rem 0}@media (min-width:750px){#contact .link,#links .link{display:inline-block;margin:0 1rem}}
